@@ -1,0 +1,13 @@
+.output{
+  margin: 2em auto 2em auto;
+  width: 280px;
+}
+.tweet{
+  width: 200px;
+}
+
+.reply{
+  margin: 30px auto 0 auto;
+  width: 200px;
+}
+

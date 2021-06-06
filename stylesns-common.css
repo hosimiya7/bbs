@@ -1,0 +1,167 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  color:#444;
+  letter-spacing: 1.7px;
+  line-height: 1.7;
+}
+
+body{
+  min-width: 284px;
+}
+
+.flex-center{
+  display: flex;
+  justify-content: center;
+}
+
+
+.header-img{
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 65%;
+}
+
+main{
+  background-image: url(sns.img/timeline-back.jpg);
+  object-fit: cover;
+  background-attachment: fixed;
+  width: 100%;
+}
+
+.input-form{
+  margin-top: 2em;
+}
+
+.input-form input{
+  border-radius: 8%;
+  border-width: 1px;
+  outline: none;
+  text-align: left;
+}
+.input-form textarea{
+  border-radius: 5%;
+  outline: none;
+  text-align: left;
+}
+
+.form-text h1{
+  font-family: cursive;
+  font-size: 3em;
+  font-weight: lighter;
+}
+.form-text p{
+  font-family: cursive;
+  font-size: 1.7em;
+  font-weight: lighter;
+}
+
+#timeline{
+  margin: 3em 0 2em 0 ;
+  padding-bottom: 2em;
+  height: 100%;
+}
+
+.output{
+  margin: 2em auto 2em auto;
+  width: 500px;
+}
+
+.tweet{
+  border: 8px dotted rgb(119, 161, 129);
+  margin: 30px auto 0 auto;
+  padding: 1em;
+  width: 300px;
+}
+
+.reply{
+  border: 8px dotted rgb(96, 199, 0);
+  margin: 30px 0 0 150px;
+  width: 300px;
+}
+
+.clear-decoration{
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.timeline-img{
+  width: 100px;
+  height: 100%;
+}
+
+.output-name{
+  margin-bottom: 0.5em;
+  text-align: left;
+}
+.output-content{
+  margin-bottom: 0.5em;
+  margin-left: 1em;
+  text-align: left;
+}
+
+.button-decoration{
+  margin: 0.5em;
+  padding: 0.5em;
+  border-radius: 10%;
+  background-color: rgb(160, 221, 188);
+  border: 1px solid rgb(111, 144, 126);
+}
+
+.button-decoration:hover{
+  box-shadow: inset 0 10px 25px 0 rgb(189, 255, 230);
+}
+
+
+.good-button-wrapper{
+  margin: 0.5em;
+}
+.good-button i{
+  color:rgb(235, 57, 66);
+  margin-right: 0.2em;
+}
+.good-button i:hover{
+  filter: drop-shadow(2px 2px 0 rgb(172, 160, 173));
+}
+
+#page_top{
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  background-color: rgb(187, 187, 187);
+  opacity: 0.9;
+  border-radius: 10%;
+	margin: 0 1em 1em 0;
+  transform: rotate(45deg);
+}
+#page_top a{
+  position: relative;
+  display: block;
+  width: 50px;
+  height: 50px;
+  text-decoration: none;
+  transform: rotate(-45deg);
+}
+#page_top a::before{
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  content: '\f102';
+  font-size: 25px;
+  color: #fff;
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  top: -5px;
+  bottom: 1;
+  right: 0;
+  left: 0;
+  margin: auto;
+  text-align: center;
+}
+

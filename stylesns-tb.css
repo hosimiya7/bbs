@@ -1,0 +1,19 @@
+.output{
+  margin: 1em auto 1em auto;
+  width: 400px;
+}
+
+#timeline{
+  margin: 2em 0 1em 0 ;
+  padding-bottom: 2em;
+  height: 100%;
+}
+
+.tweet{
+  width: 250px;
+}
+
+.reply{
+  margin: 30px 0 0 100px;
+  width: 250px;
+}
